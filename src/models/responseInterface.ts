@@ -29,7 +29,7 @@ export interface Sub {
     sub: Sub2[];
 }
 
-export interface Chart {
+export interface IChart {
     id: number;
     title: string;
     period_start: string;
@@ -40,7 +40,7 @@ export interface Chart {
 export interface IResponse {
     project: string;
     period: string;
-    chart: Chart;
+    chart: IChart;
 }
 
 
